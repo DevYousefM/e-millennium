@@ -1240,7 +1240,18 @@
 
 @media only screen and (max-width: 1199px) { 
 
-
+.header{
+    display: block;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.header-top{
+    display: none;
+}
 .main-header .main-menu {
     position: relative;
     display: block;
