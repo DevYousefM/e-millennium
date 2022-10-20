@@ -683,7 +683,7 @@
 }
 .header-three{
     position: relative;
-    display: block;
+    display: none;
 }
 .header-three .auto-container{
     max-width: 100%;
